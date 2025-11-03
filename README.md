@@ -3,6 +3,7 @@
 A Streamlit-based web application that classifies German Traffic Signs (GTSRB dataset) using a deep learning model. Users can upload an image of a traffic sign, and the app predicts its class in real-time.  
 This project showcases end-to-end deployment of a machine learning model — from training to a fully interactive web interface.
 
+<img src="download.png">
 ---
 
 ## 📂 Project Overview
