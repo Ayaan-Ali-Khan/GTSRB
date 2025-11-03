@@ -1,0 +1,15 @@
+[theme]
+# Primary accent — used for buttons, sliders, etc.
+primaryColor = "#007BFF"        # A clean professional blue
+
+# Main background color
+backgroundColor = "#F8F9FA"     # Soft light gray (modern neutral)
+
+# Sidebar and secondary elements
+secondaryBackgroundColor = "#FFFFFF"  # Crisp white for contrast
+
+# Text color for readability
+textColor = "#212529"           # Near-black, softer than pure black
+
+# Font family for a clean UI look
+font = "sans serif"
