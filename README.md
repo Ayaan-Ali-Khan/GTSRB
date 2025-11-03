@@ -1,28 +1,57 @@
-# Overview #
-A convolutional neural network for German traffic sign image classification.
+# 🚦 Traffic Sign Classification Web App
 
-<img src="download.png" height=350 width=630 />
+A Streamlit-based web application that classifies German Traffic Signs (GTSRB dataset) using a deep learning model. Users can upload an image of a traffic sign, and the app predicts its class in real-time.  
+This project showcases end-to-end deployment of a machine learning model — from training to a fully interactive web interface.
 
-# Dataset #
-[German Traffic Sign Recognition Dataset (GTSRB)](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign) is an image classification dataset.  
-The images are photos of traffic signs. The images are classified into 43 classes. The training set contains 39209 labeled images and the test set contains 12630 images. Labels for the test set are not published.  
-See more details [here](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign).
+---
 
-# Model #
-- Frameworks: TensorFlow / Keras  
-- Accuracy Achieved: **97% Test Accuracy**  
-- Techniques Used:
-  - Image Preprocessing & Normalization  
-  - Data Augmentation (Rotation, Zoom, Brightness Shift, etc.)  
-  - CNN Model with Dropout & Batch Normalization  
-  - Checkpointing Best Model  
-  
+## 📂 Project Overview
 
-# Metrics #
-The model achieved 97.01% accuracy on the test set.
+- 🧠 **Deep Learning Model** trained on the **GTSRB (German Traffic Sign Recognition Benchmark)** dataset  
+- ✅ Achieved around **97% test accuracy**  
+- 🌐 **Deployed using Streamlit Cloud**  
+- 📁 Includes model, app interface, and prediction pipeline
 
-| Metric     | Accuracy |
-| ---------- | -------- |
-| Training   | 95.74%   |
-| Validation | 99.53%   |
-| Test       | 97.01%   |
+---
+
+## 🧠 Model Details
+
+| Feature            | Description                                   |
+|--------------------|-----------------------------------------------|
+| Architecture       | Convolutional Neural Network (CNN)           |
+| Dataset            | GTSRB (43 traffic sign classes)              |
+| Accuracy           | ~97% on test data                            |
+| Framework          | TensorFlow / Keras                           |
+
+---
+
+## 📊 App Features
+
+✔ Upload a traffic sign image  
+✔ Real-time prediction with confidence score  
+✔ Sidebar navigation: **Home**, **About Model**, **About Data**  
+✔ Clean UI with custom styling  
+✔ Deployed and accessible online
+
+---
+
+## 🚀 Run Locally
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Ayaan-Ali-Khan/GTSRB.git
+cd GTSRB
+```
+
+### 2️ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Run the app
+
+```bash
+streamlit run app.py
+```
